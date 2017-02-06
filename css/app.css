@@ -22,7 +22,7 @@ body {
 
 header:before {
   content: '\A';
-  background-image: url('../images/desk.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   background-attachment:fixed;
   position: absolute;
