@@ -1,5 +1,9 @@
 $( document ).ready(function() {
+
 });
+
+
+
 $(function(){
   // See if this is a touch device
   if ('ontouchstart' in window)
@@ -13,6 +17,7 @@ $(function(){
     });
   }
 });
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

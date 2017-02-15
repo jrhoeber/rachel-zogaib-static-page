@@ -1,7 +1,7 @@
 body, html {
     /* important */
     height: 100%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Playfair Display', serif;
     background-color: #E1ECE8;
 }
 
@@ -10,7 +10,7 @@ body, html {
 }
 
 .container {
-    width: 100%; 
+    width: 100%;
     background-color: #E1ECE8;
 }
 
@@ -39,8 +39,24 @@ body, html {
  
 }
 
+.btn {
+  color: #E1ECE8;
+  background-color: #616C68;
+  border: 0px;
+}
+
+.btn:hover {
+  color: #E1ECE8;
+  background-color: #414C48;
+}
+
+.btn:active {
+  color: #E1ECE8;
+  background-color: #313C38;
+}
+
 .title-page {
-    background: url("../images/albright-knox.jpg") no-repeat center;
+    background: url("../images/albright-knox2.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -103,7 +119,9 @@ body, html {
 }
 
 .artwork {
-    height: 75%;
+    height: 83%; 
+    overflow: auto;
+    margin-bottom: 20px;
 }
 
 .bio-text {
@@ -153,24 +171,19 @@ body, html {
 }
 
 /* Images */
-
-.wrap {
-  overflow: auto;
-  margin: 10px;
-}
-
 .box {
   float: left;
   position: relative;
   width: 20%;
-  padding-bottom: 20%;
 }
 .boxInner {
   position: absolute;
-  left: 10px;
-  right: 10px;
-  top: 10px;
-  bottom: 10px;
+
+  left: 3px;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+
   overflow: hidden;
 }
 .boxInner img {
@@ -220,7 +233,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   /* Medium desktop: 4 tiles */
   .box {
     width: 25%;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
   }
 }
 
