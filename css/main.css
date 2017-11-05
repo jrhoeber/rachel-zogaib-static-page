@@ -22,7 +22,7 @@ body, html {
 
 .contain-width {
   min-width: 1024px;
-  height: 100%;
+  min-height: 620px;
 }
 
 .navbar .navbar-collapse {
@@ -120,12 +120,14 @@ body, html {
 .cd-fixed-bg.cd-bg-1 {
     background-image: url("../images/teaching.jpg");
     float: left;
+    width: 50%;
     height: 100%;
 }
 
 .cd-fixed-bg.cd-bg-3 {
     background-image: url("../images/biography.jpg");
     float: left;
+    width: 50%;
     height: 100%;
 }
 
@@ -134,6 +136,8 @@ body, html {
     width: 50%;
     text-align: center;
     height: 100%;
+
+    overflow: auto;
 }
 
 .artwork-section {
@@ -153,10 +157,11 @@ body, html {
     text-align: center;
     width: 50%;
     height: 100%;
+
+    overflow: auto;
 }
 
 .resources-section {
-  height: 90%;
   width: 65%;
   text-align: center;
   margin: auto;
