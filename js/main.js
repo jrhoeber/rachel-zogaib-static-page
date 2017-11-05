@@ -1,5 +1,9 @@
 $( document ).ready(function() {
-
+  $(".boxInner").click(function (e) {
+    $('.image-preview').attr('src', $(e.currentTarget).find(".image").attr('src'));
+    $('.header-text').text($(e.currentTarget).find(".titleBox").text());
+    $('#myModal').modal('show'); 
+  });
 });
 
 
