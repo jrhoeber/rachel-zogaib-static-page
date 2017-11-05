@@ -23,6 +23,7 @@ body, html {
 .contain-width {
   min-width: 1024px;
   min-height: 620px;
+  height: 100%;
 }
 
 .navbar .navbar-collapse {
